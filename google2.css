@@ -1,3 +1,22 @@
-body
-{text-align: center;
-color: black;}
+body {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center;
+    color: black;
+    margin: 0; /* Removes any default margin */
+  }
+
+  h1 {
+    font-family: 'Catamaran', sans-serif; /* Close to Google font */
+    font-size: 4em;
+    font-weight: 900;
+  }
+
+  /* Google color scheme for letters */
+  .red { color: #EA4335; }
+  .blue { color: #4285F4; }
+  .yellow { color: #FBBC05; }
+  .green { color: #34A853; }
