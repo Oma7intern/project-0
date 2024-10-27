@@ -1,22 +1,40 @@
-body {
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Centers vertically */
-    align-items: center; /* Centers horizontally */
-    text-align: center;
-    color: black;
-    margin: 0; /* Removes any default margin */
-  }
+#search-page body {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  text-align: center;
+  color: black;
+  margin: 0; /* Removes any default margin */
+  position: absolute;
+}
 
-  h1 {
-    font-family: 'Catamaran', sans-serif; /* Close to Google font */
-    font-size: 4em;
-    font-weight: 900;
-  }
+#search-page h1 {
+  font-family: "Catamaran", sans-serif; /* Close to Google font */
+  font-size: 4em;
+  font-weight: 900;
+}
 
-  /* Google color scheme for letters */
-  .red { color: #EA4335; }
-  .blue { color: #4285F4; }
-  .yellow { color: #FBBC05; }
-  .green { color: #34A853; }
+/* Container for links */
+#search-page .top-right-links {
+position: absolute;  /* Positions the container absolutely within the nearest positioned ancestor */
+top: 20px;           /* Positions the container 20px from the top of the page */
+right: 20px;         /* Positions the container 20px from the right of the page */
+display: flex;       /* Displays the links in a flexible row layout */
+gap: 15px;           /* Adds 15px of space between each link */
+}
+
+/* Google color scheme for letters */
+#search-page .red {
+  color: #ea4335;
+}
+#search-page .blue {
+  color: #4285f4;
+}
+#search-page .yellow {
+  color: #fbbc05;
+}
+#search-page .green {
+  color: #34a853;
+}
