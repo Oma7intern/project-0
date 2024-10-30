@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="google2.css">
-        <title>google 2 Advance_search</title>
-    </head>
-    <body id="Advance_search">
-        
-    </body>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="google2.css">
+</head>
+<body id="advanced-search">
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="index.html">Google Search</a> |
+        <a href="image_search.html">Image Search</a>
+    </div>
+
+    <!-- Advanced Search Form -->
+    <div class="form-container">
+        <form action="https://www.google.com/search" method="get">
+            <!-- Each of these inputs corresponds to a parameter Google recognizes -->
+            <label for="all">Find pages with… <strong class="red">all these words:</strong></label>
+            <input type="text" id="all" name="as_q">
+
+            <label for="exact">Find pages with… <strong class="blue">this exact word or phrase:</strong></label>
+            <input type="text" id="exact" name="as_epq">
+
+            <label for="any">Find pages with… <strong class="yellow">any of these words:</strong></label>
+            <input type="text" id="any" name="as_oq">
+
+            <label for="none">Find pages with… <strong class="green">none of these words:</strong></label>
+            <input type="text" id="none" name="as_eq">
+
+            <!-- Advanced Search Button -->
+            <input type="submit" value="Advanced Search" class="search-button">
+        </form>
+    </div>
+
+</body>
 </html>
