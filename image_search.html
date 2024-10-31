@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-<title>images</title>
-<link rel="stylesheet" href="google2.css">
-    </head>
-    
-    <body id="image_search">
-            
-        </body>
+<html lang="en">
+<head>
+   <title> image_search</title>
+     <link rel="stylesheet" href="google2.css">
+     <body id="image_search">
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="index.html">index</a> 
+        <a href="advanced_search.html">Advanced Search</a>
+    </div>
+    <h1> 
+        <span class="blue">I</span>
+        <span class="red">m</span>
+        <span class="yellow">a</span>
+        <span class="blue">g</span>
+        <span class="green">e</span>
+        <br>
+        <span class="red">S</span>
+            <span class="blue">e</span>
+            <span class="red">a</span>
+            <span class="yellow">r</span>
+            <span class="blue">c</span>
+            <span class="green">h</span>
+            <span class="red">2</span>
+      </h1>
+
+    <!-- Image Search Form -->
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <!-- Search Query Input -->
+            <input type="text" name="q" placeholder="Search for images">
+            <!-- Hidden Input to specify image search -->
+            <input type="hidden" name="tbm" value="isch">
+            <!-- Submit Button -->
+            <input type="submit" value="Search Images">
+        </form>
+    </div>
+</body>
 </html>

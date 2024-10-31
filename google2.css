@@ -74,3 +74,39 @@ body#advanced-search {
   top: 20px;
   right: 20px;
 }
+
+
+body#image_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+#image_search .nav-links
+ {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  body#image_search .red {
+    color: #ea4335;
+  }
+  body#image_search .blue {
+    color: #4285f4;
+  }
+  body#image_search .yellow {
+    color: #fbbc05;
+  }
+  body#image_search .green {
+    color: #34a853;
+  }
+
+  #image_search h1 {
+    font-family: "Catamaran", sans-serif; /* Close to Google font */
+    font-size: 4em;
+    font-weight: 900;
+    top: 20px;
+  }
