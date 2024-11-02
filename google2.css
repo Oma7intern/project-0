@@ -7,20 +7,19 @@ body#search-page {
   text-align: center;
   color: black;
   margin: 0; /* Removes any default margin */
-  
 }
 
 #search-page h1 {
-  font-family: "Catamaran", sans-serif; /* Close to Google font */
+  font-family: 'Catamaran', sans-serif; /* Close to Google font */
   font-size: 4em;
   font-weight: 900;
 }
 
 /* Container for links */
 #search-page .nav-links {
-position: absolute;  /* Positions the container absolutely within the nearest positioned ancestor */
-top: 20px;           /* Positions the container 20px from the top of the page */
-right: 20px;         /* Positions the container 20px from the right of the page */
+  position: absolute; /* Positions the container absolutely within the nearest positioned ancestor */
+  top: 20px; /* Positions the container 20px from the top of the page */
+  right: 20px; /* Positions the container 20px from the right of the page */
 }
 
 /* Google color scheme for letters */
@@ -73,7 +72,6 @@ body#advanced-search {
   right: 20px;
 }
 
-
 body#image_search {
   display: flex;
   flex-direction: column;
@@ -84,31 +82,30 @@ body#image_search {
   padding-top: 25px; /* Add space at the top to push everything down */
 }
 
-#image_search .nav-links
- {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
+#image_search .nav-links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 
-  body#image_search .red {
-    color: #ea4335;
-  }
-  body#image_search .blue {
-    color: #4285f4;
-  }
-  body#image_search .yellow {
-    color: #fbbc05;
-  }
-  body#image_search .green {
-    color: #34a853;
-  }
+body#image_search .red {
+  color: #ea4335;
+}
+body#image_search .blue {
+  color: #4285f4;
+}
+body#image_search .yellow {
+  color: #fbbc05;
+}
+body#image_search .green {
+  color: #34a853;
+}
 
-  #image_search h1 {
-    font-family: "Catamaran", sans-serif; /* Close to Google font */
-    font-size: 4em;
-    font-weight: 900;
-    margin-bottom: 20px; /* Space below the header */
-    padding-bottom: 20px; /* Creates space between the <h1> and the search bar */
-    top: 80px;
-  } 
+#image_search h1 {
+  font-family: 'Catamaran', sans-serif; /* Close to Google font */
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom: 20px; /* Space below the header */
+  padding-bottom: 20px; /* Creates space between the <h1> and the search bar */
+  top: 80px;
+}
