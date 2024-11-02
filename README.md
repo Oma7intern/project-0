@@ -32,7 +32,8 @@ This project is a simplified front-end replica of Google's search interface, bui
 - **CSS**: Used for styling and layout, including Flexbox for centering and color classes to mimic Google's look.
 
     <NAME>
-~Hanad Jeylani~
+ Hanad Jeylani
 
 ## License
 This project is created for educational purposes and is not affiliated with or endorsed by Google. No license is included as it is intended for a school assignment.
+ 
